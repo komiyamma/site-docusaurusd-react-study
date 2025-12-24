@@ -271,7 +271,7 @@ Vite のテンプレだと `<React.StrictMode>` が有効で、**開発中だけ
    * Bad は theme 変更でも count パネルが動きがち
    * Good は theme を読んでないなら動かない…はず！🎉
 
-2. ``const summary = useCounterStore((s) => `${s.name}:${s.count}`)`` を作って表示してみよう🧾
+2. ``const summary = useCounterStore((s) => `\${s.name}:\${s.count}`)`` を作って表示してみよう🧾
 
    * これも selector だよ！✨（返り値が文字列＝比較しやすい）
 

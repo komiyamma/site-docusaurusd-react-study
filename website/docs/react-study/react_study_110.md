@@ -314,8 +314,8 @@ export function SimpleField({ label }: SimpleFieldProps) {
 ヒント：
 
 * `const baseId = useId();`
-* ``const inputId = `${baseId}-input`;``
-* ``const descId = `${baseId}-desc`;``
+* ``const inputId = `\${baseId}-input`;``
+* ``const descId = `\${baseId}-desc`;``
 
 みたいに分けると、すっきり書けますよ ✨
 

@@ -1,0 +1,58 @@
+
+> website@0.0.0 build
+> docusaurus build
+
+[INFO] [en] Creating an optimized production build...
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Server: Compiled successfully in 1.62s
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Client: Compiled successfully in 3.97s
+
+[ERROR] Error: Unable to build website for locale en.
+    at tryToBuildLocale (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:83:15)
+    at async G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:35:9
+    ... 4 lines matching cause stack trace ...
+    at async file:///G:/repogitory_study/test-docusaurusd-001/website/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3 {
+  [cause]: Error: Docusaurus static site generation failed for 1 paths:
+  - "/docs/react-study/react_study_013"
+      at throwSSGError (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgGlobalResult.js:56:11)
+      at createGlobalSSGResult (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgGlobalResult.js:66:9)
+      ... 11 lines matching cause stack trace ...
+      at async file:///G:/repogitory_study/test-docusaurusd-001/website/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3 {
+    [cause]: AggregateError
+        at throwSSGError (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgGlobalResult.js:57:16)
+        at createGlobalSSGResult (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgGlobalResult.js:66:9)
+        at G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgExecutor.js:30:68
+        at async executeSSG (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgExecutor.js:144:20)
+        at async buildLocale (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\buildLocale.js:84:31)
+        at async runBuildLocaleTask (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:98:5)
+        at async G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:79:13
+        at async tryToBuildLocale (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:75:9)
+        at async G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:35:9
+        at async mapAsyncSequential (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\utils\lib\jsUtils.js:21:24)
+        at async Command.build (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\build\build.js:34:5)
+        at async Promise.all (index 0)
+        at async runCLI (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\commands\cli.js:56:5)
+        at async file:///G:/repogitory_study/test-docusaurusd-001/website/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3 {
+      [errors]: [
+        Error: Can't render static file for pathname "/docs/react-study/react_study_013"
+            at generateStaticFile (G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\core\lib\ssg\ssgRenderer.js:131:20)
+            at async G:\repogitory_study\test-docusaurusd-001\website\node_modules\p-map\index.js:57:22 {
+          [cause]: ReferenceError: 蠑・is not defined
+              at _createMdxContent (server.bundle.js:2807:19)
+              at MDXContent (server.bundle.js:3198:8)
+              at renderWithHooks (server.bundle.js:88642:18)
+              at renderElement (server.bundle.js:88780:14)
+              at retryNode (server.bundle.js:89498:16)
+              at renderNodeDestructive (server.bundle.js:89292:7)
+              at renderElement (server.bundle.js:89225:11)
+              at retryNode (server.bundle.js:89498:16)
+              at renderNodeDestructive (server.bundle.js:89292:7)
+              at finishFunctionComponent (server.bundle.js:88683:9)
+        }
+      ]
+    }
+  }
+}
+[INFO] Docusaurus version: 3.9.2
+Node version: v22.18.0

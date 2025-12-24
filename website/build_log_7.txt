@@ -1,0 +1,39 @@
+
+> website@0.0.0 build
+> docusaurus build
+
+[INFO] [en] Creating an optimized production build...
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Server
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Server: Compiled with some errors in 1.21s
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|G:\repogitory_study\test-docusaurusd-001\website\node_modules\@docusaurus\mdx-loader\lib\index.js??ruleSet[1].rules[8].use[0]!G:\repogitory_study\test-docusaurusd-001\website\docs\react-study\react_study_013.md': No serializer registered for VFileMessage
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> Error -> VFileMessage
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Client: Compiled with some errors in 3.28s
+[ERROR] Client bundle compiled with errors therefore further build is impossible.
+Error: MDX compilation failed for file "G:\repogitory_study\test-docusaurusd-001\website\docs\react-study\react_study_013.md"
+Cause: Could not parse expression with acorn
+Details:
+{
+  "cause": {
+    "pos": 2155,
+    "loc": {
+      "line": 76,
+      "column": 17
+    },
+    "raisedAt": 4
+  },
+  "column": 18,
+  "file": "",
+  "message": "Could not parse expression with acorn",
+  "line": 76,
+  "name": "76:18",
+  "place": {
+    "line": 76,
+    "column": 18,
+    "offset": 2155
+  },
+  "reason": "Could not parse expression with acorn",
+  "ruleId": "acorn",
+  "source": "micromark-extension-mdx-expression",
+  "url": "https://github.com/micromark/micromark-extension-mdx-expression/tree/main/packages/micromark-extension-mdx-expression#could-not-parse-expression-with-acorn"
+}

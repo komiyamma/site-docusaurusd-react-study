@@ -190,7 +190,7 @@ export default function App() {
 
 ### 2) 子で inputRef.current が null 😭
 
-* inputに「`ref={inputRef}`」が付いてるかチェック✅
+* inputに「 `ref={inputRef}` 」が付いてるかチェック✅
 
 ### 3) useImperativeHandle の依存配列が気になる🤔
 

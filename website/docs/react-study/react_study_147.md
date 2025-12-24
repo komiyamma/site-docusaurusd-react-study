@@ -303,7 +303,7 @@ export function ItemListPage() {
 
 この例で使っているもの：
 
-* ``navigate(`/items/${id}`)`` … 文字列パスで移動
+* ``navigate(`/items/\${id}`)`` … 文字列パスで移動
 * `navigate(-1)` … 履歴を使った「戻る」
 
 ---
