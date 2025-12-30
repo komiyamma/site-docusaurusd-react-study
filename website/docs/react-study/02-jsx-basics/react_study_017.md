@@ -30,6 +30,9 @@ flowchart TD
 
 ## ステップ1：フォルダを作ってファイル分割 ✂️
 
+![Component Library](picture/react_study_017_component_library.png)
+
+
 1. `src/` の中に **`components/`** フォルダを作る
 2. `HelloName` を別ファイルに移動してみよう
 

@@ -16,6 +16,9 @@
 
 ## なにが「二重カッコ」なの？🧠
 
+![Style Palette](picture/react_study_015_style_palette.png)
+
+
 ```mermaid
 flowchart TD
   A[JSX] -- 外側の { } --> B[JSの世界へ]

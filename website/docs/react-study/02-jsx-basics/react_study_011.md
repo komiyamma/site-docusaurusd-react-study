@@ -23,6 +23,9 @@ UIをコードで作るとき、**「見た目（タグ）」と「ロジック�
 
 ## JSXはどこへ行くの？（変換の流れ）🛠️➡️🧠➡️🧭➡️🖥️
 
+![JSX Machine](picture/react_study_011_jsx_machine.png)
+
+
 ```mermaid
 flowchart TD
   A["あなたの .tsx (JSX入り)"] --> B["TypeScript/ESBuild"]

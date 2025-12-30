@@ -43,6 +43,9 @@ flowchart TD
 
 ## まずは基本のキ：テキストに変数を出す ✨
 
+![Curly Braces](picture/react_study_014_curly_braces.png)
+
+
 ```tsx
 // src/App.tsx
 function App() {

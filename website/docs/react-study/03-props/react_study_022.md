@@ -7,6 +7,9 @@
 
 ## 🔭 まずは全体像（どこからどこへ渡すの？）
 
+![Props Conveyor](picture/react_study_022_props_conveyor.png)
+
+
 ```mermaid
 flowchart TD
   A["親: App"] -->|title, notificationCount| H["子: Header"]

@@ -169,6 +169,9 @@ type BadgeProps = { tone?: Tone };
 
 ## “型が守ってくれた！”を体験してみよう 🛡️
 
+![Type Guardian](picture/react_study_019_type_guardian.png)
+
+
 ### NG例：渡す値がユニオンに無い
 
 ```tsx

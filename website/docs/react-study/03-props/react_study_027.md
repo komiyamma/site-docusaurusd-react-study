@@ -40,6 +40,9 @@
 
 ### 2️⃣ 図で見る `children` の流れ 🧠📊
 
+![Children Flow](picture/react_study_027_children_flow.png)
+
+
 `children` がどう流れているか、ざっくり図で見てみましょう 🧸
 
 ```mermaid

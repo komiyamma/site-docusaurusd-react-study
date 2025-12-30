@@ -159,6 +159,9 @@ export function UserCard({ name, age }: UserCardProps) {
 
 ### 26-5. Mermaidでイメージ図を描いてみる 🧠✨
 
+![Props Destructuring](picture/react_study_026_destructuring.png)
+
+
 親から子へ Props が渡されて、子の中で分割代入される流れを図にしてみます。
 
 ```mermaid

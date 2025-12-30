@@ -31,6 +31,9 @@ flowchart TD
 
 ## 最小のコンポーネント ✨
 
+![Component Stamp](picture/react_study_016_component_stamp.png)
+
+
 ```tsx
 // src/components/Hello.tsx
 export default function Hello() {

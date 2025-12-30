@@ -208,6 +208,9 @@ export default App;
 
 ## 7️⃣ `children` を使うと何がうれしいの？🤔
 
+![Card Container](picture/react_study_025_card_container.png)
+
+
 今回の `Card` コンポーネントは、中身をぜんぶ `props.children` に任せています。
 
 ```tsx

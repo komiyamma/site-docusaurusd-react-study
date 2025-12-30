@@ -9,6 +9,9 @@
 
 Props は「上から下へ」流れるよ。子から親へは直接は流れない（イベント関数を渡すのは後の章で！）
 
+![Props Baton](picture/react_study_021_props_baton.png)
+
+
 ```mermaid
 flowchart LR
   P["親: App"] -- "name='さくら'" --> C["子: Greeting"]

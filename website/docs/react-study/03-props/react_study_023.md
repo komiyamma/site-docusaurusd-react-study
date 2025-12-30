@@ -7,6 +7,9 @@
 
 ## 🗺️ まずは地図：型の流れをイメージしよう
 
+![Explicit Props](picture/react_study_023_explicit_props.png)
+
+
 ```mermaid
 flowchart TD
   A[Propsの型定義 type Props] --> B["関数引数に型を当てる function Comp({..}: Props)"]

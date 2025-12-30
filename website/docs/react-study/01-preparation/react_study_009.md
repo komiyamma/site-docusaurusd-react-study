@@ -74,6 +74,8 @@ export default function App() {
 
 > 💡 ポイント
 >
+> ![JSX Blender](picture/react_study_009_jsx_blender.png)
+>
 > * **`.tsx`** は **JSX（HTMLっぽい記法）+ TypeScript**。
 > * `{ ... }` の中は **JavaScriptの世界**（変数・式が書ける）
 > * インラインスタイルは **オブジェクト** で渡すよ（`style={{ padding: 24 }}` みたいな感じ）
@@ -111,6 +113,7 @@ export default function App() {
 
 > 📝 ここで覚えること
 >
+> ![Props Parcel](picture/react_study_009_props_parcel.png)
 > * **部品（コンポーネント）** は **関数** で作るのが今っぽい。
 > * 受け取る値（Props）は **型（`GreetingProps`）** で形を決めると安心安全🫡
 > * `({ name })` みたいに **分割代入** で取り出すのが定番。

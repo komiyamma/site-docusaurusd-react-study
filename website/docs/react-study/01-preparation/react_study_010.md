@@ -60,6 +60,9 @@ flowchart TD
 * 画面に表示中の **コンポーネントツリー**
 * 選択したコンポーネントの **props / state / hooks**
 * ツリー上でホバーすると、該当要素がページ上でハイライト ✨
+>
+> ![X-Ray Specs](picture/react_study_010_xray_specs.png)
+
 
 **やってみよう（Hello Worldを題材に）**
 

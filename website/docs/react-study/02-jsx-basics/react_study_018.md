@@ -28,6 +28,9 @@
 
 ## まずは「選び方」を図で👀
 
+![Type vs Interface](picture/react_study_018_type_vs_interface.png)
+
+
 ```mermaid
 flowchart TD
   A[型を作りたい] --> B{何を表す?}

@@ -49,6 +49,9 @@ flowchart TD
 
 ## DOM属性は**基本 camelCase** 🐪
 
+![Camel Case](picture/react_study_013_camel_case.png)
+
+
 HTMLのハイフン表記が、JSXでは**大文字小文字**になるよ（JSのプロパティに寄せている感じ）。
 
 | HTML           | JSX（camelCase）         | 例                                        |

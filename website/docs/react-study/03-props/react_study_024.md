@@ -7,6 +7,9 @@
 
 ## 🎯 `children` ってなに？
 
+![Children Slot Machine](picture/react_study_024_slot_machine.png)
+
+
 JSXでタグの**内側に書いた中身**が、コンポーネントに **`children`** という名前で渡されるよ。
 
 ```mermaid

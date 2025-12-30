@@ -53,6 +53,9 @@ export type IntroCardProps = {
 
 ## ステップ3：コンポーネントを実装 🎨⚙️
 
+![Card Assembly](picture/react_study_020_card_assembly.png)
+
+
 ```tsx
 // src/components/IntroCard.tsx
 export type IntroCardProps = {
