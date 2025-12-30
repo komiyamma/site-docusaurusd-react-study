@@ -36,6 +36,7 @@ const config: Config = {
   },
 
   markdown: {
+    format: 'detect',  // .md は CommonMark、.mdx は MDX として処理
     mermaid: true,
   },
   themes: [
