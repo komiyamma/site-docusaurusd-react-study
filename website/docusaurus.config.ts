@@ -1,6 +1,8 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import * as fs from 'fs';
+import * as path from 'path';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -38,6 +40,29 @@ const config: Config = {
   markdown: {
     format: 'detect',  // .md は CommonMark、.mdx は MDX として処理
     mermaid: true,
+    // 外部の .memo ファイルからページの description を読み込む
+    parseFrontMatter: async (params) => {
+      // デフォルトのパーサーを使用
+      const result = await params.defaultParseFrontMatter(params);
+
+      // すでに description があれば何もしない
+      if (result.frontMatter.description) {
+        return result;
+      }
+
+      // 対応する .memo ファイルのパスを計算
+      const memoPath = params.filePath.replace(/\.mdx?$/, '.memo');
+
+      // .memo ファイルが存在すれば description として読み込む
+      if (fs.existsSync(memoPath)) {
+        const memoContent = fs.readFileSync(memoPath, 'utf-8').trim();
+        if (memoContent) {
+          result.frontMatter.description = memoContent;
+        }
+      }
+
+      return result;
+    },
   },
   themes: [
     '@docusaurus/theme-mermaid',
