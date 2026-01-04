@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'React Study',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/react_logo.svg').default,
     description: (
       <>
         コンポーネント、Hooks、State管理など、モダンなReact開発の基礎を体系的に学びます。
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Next Study',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/nextjs_logo.svg').default,
     description: (
       <>
         App Router、Server Actions、SSR/SSGなど、Next.jsによるフルスタック開発を習得します。
