@@ -32,6 +32,8 @@
 
 ## 2) 図解：Server Actionでのバリデーションの流れ📮➡️🛡️➡️✅
 
+![alt](./picture/next_study_143_server_validation.png)
+
 ![イメージ図](./picture/next_study_143_server_validation.png)
 
 ```mermaid

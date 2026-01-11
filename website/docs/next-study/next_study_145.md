@@ -155,6 +155,8 @@ export default function TodoForm() {
 
 ## 4) 図解：送信中は “ロック🔒” がかかるイメージ🧠✨
 
+![alt](./picture/next_study_145_double_submit.png)
+
 ![イメージ図](./picture/next_study_145_double_submit.png)
 
 ```mermaid

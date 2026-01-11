@@ -24,6 +24,8 @@
 
 ## 2) 図でイメージ：チェックは2段構え🍰✨（Mermaid）
 
+![alt](./picture/next_study_144_client_validation.png)
+
 ![イメージ図](./picture/next_study_144_client_validation.png)
 
 ```mermaid
