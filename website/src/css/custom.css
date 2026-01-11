@@ -17,11 +17,11 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   
-  /* Sidebar width 400px -> 480px (+80px) */
-  --doc-sidebar-width: 480px;
+  /* Sidebar width 400px -> 430px (Refined by user) */
+  --doc-sidebar-width: 430px;
   
-  /* Cap the width at 1600px for readability on 4K screens */
-  --ifm-container-width: 1600px;
+  /* Cap the width at 1700px for readability on 4K screens */
+  --ifm-container-width: 1700px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
