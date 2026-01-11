@@ -128,12 +128,7 @@ const config: Config = {
           position: 'left',
           label: 'Next Study',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
+
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/komiyamma/site-docusaurus-react-study',
