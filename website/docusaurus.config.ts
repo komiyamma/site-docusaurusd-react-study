@@ -109,10 +109,11 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'react-study.komiyamma.net',
+      title: '',
       logo: {
-        alt: 'eact-study.komiyamma.net Logo',
-        src: 'img/logo.svg',
+        alt: 'Home',
+        src: 'img/home_light.svg',
+        srcDark: 'img/home_dark.svg',
       },
       items: [
         {
