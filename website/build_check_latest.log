@@ -1,0 +1,24 @@
+
+> website@0.0.0 build
+> docusaurus build
+
+[INFO] Website will be built for all these locales: 
+- ja
+- en
+[INFO] [ja] Creating an optimized production build...
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Server
+[WARNING] Docusaurus found 2 unused Markdown directives in file "docs/next-study/next_study_198.md"
+- :contentReference (16:13)
+- :contentReference (55:59)
+Your content might render in an unexpected way. Visit https://github.com/facebook/docusaurus/pull/9394 to find out why and how to fix it.
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Server: Compiled successfully in 6.68s
+[90m[[90mwebpackbar[90m][39m [32m笨・[39m Client: Compiled successfully in 25.33s
+[SUCCESS] Generated static files in "build".
+[INFO] [en] Creating an optimized production build...
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Client
+[90m[[90mwebpackbar[90m][39m [36m邃ｹ[39m Compiling Server
+[WARNING] Docusaurus found 2 unused Markdown directives in file "docs/next-study/next_study_198.md"
+- :contentReference (16:13)
+- :contentReference (55:59)
+Your content might render in an unexpected way. Visit https://github.com/facebook/docusaurus/pull/9394 to find out why and how to fix it.

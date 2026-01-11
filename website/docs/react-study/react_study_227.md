@@ -350,7 +350,7 @@ npm run dev
 ### B) ストリーミングが止まる/固まる😵‍💫
 
 * プロキシ経由だとストリーミングが壊れるケースがあるよ（あるある）
-  なのでこの章みたいに **直URL（[http://localhost:8787）](http://localhost:8787）)** で叩くのがラク！
+  なのでこの章みたいに **直URL（[http://localhost:8787](http://localhost:8787)）** で叩くのがラク！
   （Expressのトラブルシュートにも「proxyでストリーミング問題」あるよ）([AI SDK][4])
 
 ### C) OPENAI_API_KEY まわりでエラー🔑
