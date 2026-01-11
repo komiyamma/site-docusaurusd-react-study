@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/react_logo.svg').default,
     description: (
       <>
-        コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。
+        コンポーネント、Hooks、State管理など、<br/>モダンなReact開発の基礎を体系的に学びます。<br/>2026年1月最新<br/>
       </>
     ),
   },

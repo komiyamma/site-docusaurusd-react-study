@@ -9,7 +9,7 @@ import * as path from 'path';
 const config: Config = {
   title: 'react-study.komiyamma.net',
   tagline: 'React/Next入門者用の学習教材',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/react_logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
