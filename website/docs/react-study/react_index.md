@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 ## 挫折しないReact v19入門：TS完全対応【290章】ロードマップ
 
 ### 🌍 **Module 1: 準備とTypeScriptの「考え方」 (1〜10章)**

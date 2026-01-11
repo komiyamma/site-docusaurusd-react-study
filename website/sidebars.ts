@@ -100,7 +100,10 @@ const sidebars: SidebarsConfig = {
     },
   ],
   reactStudySidebar: [
-    'react-study/react_index',
+    {
+      type: 'doc',
+      id: 'react-study/react_index',
+    },
     ...reactModules.map(mod => ({
       type: 'category' as const,
       label: mod.title,
@@ -108,7 +111,10 @@ const sidebars: SidebarsConfig = {
     })),
   ],
   nextStudySidebar: [
-    'next-study/next_index',
+    {
+      type: 'doc',
+      id: 'next-study/next_index',
+    },
     ...nextModules.map(mod => ({
       type: 'category' as const,
       label: mod.title,
