@@ -48,7 +48,11 @@ const config: Config = {
       }
 
       // 対応する .memo ファイルのパスを計算
-      const memoPath = params.filePath.replace(/\.mdx?$/, '.memo');
+      // 以前: const memoPath = params.filePath.replace(/\.mdx?$/, '.memo');
+      // 変更: .md ファイルがあるディレクトリの memo サブフォルダ内を探す
+      const fileDir = path.dirname(params.filePath);
+      const fileName = path.basename(params.filePath).replace(/\.mdx?$/, '.memo');
+      const memoPath = path.join(fileDir, 'memo', fileName);
 
       // .memo ファイルが存在すれば description として読み込む
       if (fs.existsSync(memoPath)) {
