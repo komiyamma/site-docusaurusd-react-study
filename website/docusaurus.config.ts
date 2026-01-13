@@ -86,6 +86,8 @@ const config: Config = {
           // Please change this to your repo.
 
         },
+        blog: false, // Blog機能は無効化 (フォルダ削除済み)
+        /*
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -99,6 +101,7 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        */
         theme: {
           customCss: './src/css/custom.css',
         },
