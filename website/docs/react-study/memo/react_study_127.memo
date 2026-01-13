@@ -1,0 +1,1 @@
+useFormStatusを解説。子から直接pendingを検知し待機表示する仕組みを学びます。useActionStateとの分担や制約を理解し、再利用性の高い実装を習得します。

@@ -1,0 +1,1 @@
+Cookieを用いたサーバーサイド状態永続化を解説。Server Action書き込みとServer Component読み取りで設定を保持する。

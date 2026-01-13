@@ -1,0 +1,1 @@
+型安全なフォーム入力とState更新を解説。ChangeEventでのe.currentTarget.value取得、数値変換やユニオン型での管理など、React+TSでの堅牢な実装手法を習得する。

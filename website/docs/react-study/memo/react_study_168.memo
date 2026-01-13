@@ -1,0 +1,1 @@
+invalidateQueriesによる無効化。更新後にstale化し再取得を促す仕組みを学びます。queryKeyでの一括処理やsetQueryDataを習得し、画面を最新に保ちます。

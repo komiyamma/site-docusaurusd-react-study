@@ -1,0 +1,1 @@
+Server Componentでのfetchを解説。高速化や安全な取得、JS削減の利点、async/await実装例やClient fetchとの使い分けを学ぶ。サーバー中心の取得手法を実例で習得する。

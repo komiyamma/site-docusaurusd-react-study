@@ -1,0 +1,1 @@
+Route Handler（アプリ内API）を解説。route.tsでGET等をexportしResponseを返す仕組み、APIキー秘匿の利点を学ぶ。Web標準に基づくサーバー処理を実例で学ぶ。

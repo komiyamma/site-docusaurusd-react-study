@@ -1,0 +1,1 @@
+データの追加はRoute HandlerやServer Actionで行う。Prismaのcreateメソッドを使用し、サーバ側で安全にDBへ保存する。

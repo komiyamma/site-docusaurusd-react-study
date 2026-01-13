@@ -1,0 +1,1 @@
+Edge RuntimeとProxy（Middleware）活用。低レイテンシ処理や制約、ログイン判定、リダイレクトの実装を学ぶ。16以降のproxy.tsを用いた最新制御を実例で学ぶ。

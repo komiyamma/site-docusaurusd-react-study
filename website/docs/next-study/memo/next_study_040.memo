@@ -1,0 +1,1 @@
+Reactのchildrenと型React.ReactNodeを解説。入れ子構造の仕組みやlayout.tsxでの役割、Card等の「枠部品」の自作手法を学ぶ。UIの再利用性を高める方法を具体例で学ぶ。

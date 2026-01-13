@@ -1,0 +1,1 @@
+CRUD全機能をServer Actionsに集約し、フォーム操作とDB更新を直結させる。revalidatePathにより、操作ごとの画面反映を自動化する。

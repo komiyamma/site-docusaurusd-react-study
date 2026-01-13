@@ -1,0 +1,1 @@
+Reactのchildrenの型定義を解説。React.ReactNode、要素限定のReactElement、関数を受けるレンダープロップなど、用途別の使い分けと設計手法を習得する。

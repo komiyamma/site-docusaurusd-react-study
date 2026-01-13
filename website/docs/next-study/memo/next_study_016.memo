@@ -1,0 +1,1 @@
+ESLintの役割と重要性、バグ防止や専用ルール、Flat Config形式を整理。npm run lintでのチェックや実例図解で活用法を紹介。

@@ -1,0 +1,1 @@
+useWindowSizeを解説。useStateでの保持やresize監視・解除をuseEffectで行う仕組みを学びます。型定義やレスポンシブUIへの活用を習得しましょう。

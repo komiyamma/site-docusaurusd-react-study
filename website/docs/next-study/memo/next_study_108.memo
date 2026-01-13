@@ -1,0 +1,1 @@
+Route HandlerのPOST対応とbody取得。request.json()での取得、Content-Type検証、返却コードの設計を学ぶ。curl等での確認手順を含め、API構築の基本を実例で学ぶ。

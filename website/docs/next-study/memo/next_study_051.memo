@@ -1,0 +1,1 @@
+Next.jsのグローバルCSSを解説。app/globals.cssをRootLayoutで読み込む標準的手法やリセットCSS、共通変数定義、CSS Modulesとの使い分けを実例で学ぶ。

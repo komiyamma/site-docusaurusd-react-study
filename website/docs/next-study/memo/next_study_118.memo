@@ -1,0 +1,1 @@
+Route HandlerとClient画面を連携させたTODOアプリの土台作り。GET/POST実装、バリデーション、レスポンス返却、状態管理を学ぶ。APIとUIを繋ぐ基本を実例で習得する。

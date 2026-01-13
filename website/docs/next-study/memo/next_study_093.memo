@@ -1,0 +1,1 @@
+loading.tsxとSuspenseの使い分け。全体待機のloadingと一部のみ待たせるSuspenseの違い、骨組みを先出しする実装を学ぶ。速度を高める設計の基本を実例で学ぶ。

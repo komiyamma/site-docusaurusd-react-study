@@ -1,0 +1,1 @@
+Cookieでのルート保護。Middlewareでの認証チェック、リダイレクト、Route Handlerでの安全なCookie発行・削除を学ぶ。認証導線の基本を実例で習得する。

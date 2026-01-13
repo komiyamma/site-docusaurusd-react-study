@@ -1,0 +1,1 @@
+従来のReactフォームはuseStateとonSubmitで管理され、状態管理や送信処理が複雑になりがちだ。この手法を復習し、次章以降のServer Actionsと比較する。

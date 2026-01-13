@@ -1,0 +1,1 @@
+revalidatePathとrevalidateTagによるキャッシュ更新の違いと使い分けを比較。ページ単位かデータ単位か、実務的な選択基準を学ぶ。

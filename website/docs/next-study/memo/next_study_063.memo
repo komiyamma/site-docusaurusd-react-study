@@ -1,0 +1,1 @@
+検索パラメータ（?q=）操作を解説。ServerのsearchParams、ClientのuseSearchParams活用、URLSearchParamsでの更新を学ぶ。検索窓と一覧の同期を実例で習得する。

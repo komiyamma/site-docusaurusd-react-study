@@ -1,0 +1,1 @@
+Next.jsのDynamic RouteでparamsをTSで安全に扱う手法を解説。Promise化された仕様への対応、PagePropsでの型推論、awaitによる取得、手動の型定義を実例で学ぶ。

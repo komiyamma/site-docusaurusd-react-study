@@ -1,0 +1,1 @@
+TypeScriptのinterfaceとtypeの違いを解説。Props定義には柔軟なtypeを推奨し、拡張性が必要な場合にinterfaceを使うという使い分け指針を示す。

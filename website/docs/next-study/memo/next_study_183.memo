@@ -1,0 +1,1 @@
+権限管理はロールベースで行い、MiddlewareだけでなくServer ActionやAPIでの厳密なチェックを徹底して不正操作を防ぐ。

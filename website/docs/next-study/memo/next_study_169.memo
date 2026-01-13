@@ -1,0 +1,1 @@
+更新処理はユニークなIDを条件にupdateメソッドを実行する。Server Actionで処理し、revalidatePathで画面を即座に最新化する。

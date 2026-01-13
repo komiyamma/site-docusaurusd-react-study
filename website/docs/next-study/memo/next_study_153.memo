@@ -1,0 +1,1 @@
+CSRFはログイン状態を悪用する攻撃だが、SameSite属性やServerActionsの仕組みで防げる。自作APIではOrigin検証等の追加対策も検討する。

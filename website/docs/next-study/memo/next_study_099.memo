@@ -1,0 +1,1 @@
+error.tsxのreset()を用いた再試行。失敗を含む処理やstartTransitionでの制御、"use client"条件を学ぶ。一時的エラーをユーザーが解決できる設計を実例で学ぶ。

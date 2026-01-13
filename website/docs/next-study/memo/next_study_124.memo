@@ -1,0 +1,1 @@
+proxy.tsでの/dashboardログイン必須化を解説。クッキー認証、未認証時の/login遷移とURL保持、Route Handlerでのログイン実装を学ぶ。入口ガードの基本を実例で習得する。

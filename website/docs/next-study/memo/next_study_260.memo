@@ -1,0 +1,1 @@
+Server ComponentsでのContext API利用法を解説。Client Providerによる橋渡しで、必要な範囲での状態共有を実現する。

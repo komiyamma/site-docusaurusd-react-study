@@ -1,0 +1,1 @@
+"use server"宣言でサーバー関数を作り、Formのactionに紐付けるServer Actionsを導入。JSなしでも送信可能になり、安全で直感的なフォーム実装が実現する。

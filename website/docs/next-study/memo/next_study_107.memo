@@ -1,0 +1,1 @@
+Route HandlerでのGETとJSON返却。Response.jsonでの返却やクエリ取得手法を学ぶ。おみくじAPIの実装を通じ、ブラウザで確認可能なアプリ内API構築の基本を学ぶ。

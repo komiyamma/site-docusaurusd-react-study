@@ -1,0 +1,1 @@
+Route Handlerの基本。app/api/配下にroute.tsを置き、GET等をexportしてAPIを作る手法。URLとフォルダ連動、JSON返却の基本を実例で学ぶ。

@@ -1,0 +1,1 @@
+atomWithStorageを解説。localStorage等を用いた状態の永続化や初回ロード制御、RESETによる初期化を網羅。リロード後も状態を維持する実装手順を詳しく学びます。

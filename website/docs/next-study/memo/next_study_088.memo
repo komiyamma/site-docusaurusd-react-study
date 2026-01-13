@@ -1,0 +1,1 @@
+Route Handlerを挟み安全にデータ取得する手法。APIキー秘匿、CORS回避、データ整形等の利点や実装、AbortControllerでの制御を学ぶ。セキュアな連携の基本を実例で学ぶ。

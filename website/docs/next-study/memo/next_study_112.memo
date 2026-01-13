@@ -1,0 +1,1 @@
+Route Handlerをクライアントからfetchで呼ぶ手法。use clientでの状態管理、Loading/Error表示、相対パスの利点を学ぶ。APIと画面を連携させる基本を実例で学ぶ。

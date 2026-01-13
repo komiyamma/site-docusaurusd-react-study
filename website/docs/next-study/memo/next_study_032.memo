@@ -1,0 +1,1 @@
+Next.jsのloading.tsxでページ読込中の待機UIを作る手法を解説。React Suspenseの仕組みやスケルトンUIの実装、設置場所、動作確認方法を実例と共に学ぶ。

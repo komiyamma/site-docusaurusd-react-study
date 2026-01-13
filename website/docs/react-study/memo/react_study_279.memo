@@ -1,0 +1,1 @@
+NodemailerやAWS SESとの連携を解説。SMTPやSES transportを用いた環境構築を網羅。要件に合わせた送信基盤の選定と実装を詳しく学びます。

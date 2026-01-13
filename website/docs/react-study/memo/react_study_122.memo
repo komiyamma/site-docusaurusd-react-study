@@ -1,0 +1,1 @@
+React 19のForm Actionsを解説。<form action={...}>での関数指定により、手動のonSubmit処理を簡略化する仕組みを学びます。最新のフォーム構築手法を習得します。

@@ -1,0 +1,1 @@
+usePathname（現在地）とuseRouter（遷移）を解説。ナビ活性化やpushでの遷移、next/navigationからの導入を学ぶ。Linkとの使い分け等、画面移動の基本を学ぶ。

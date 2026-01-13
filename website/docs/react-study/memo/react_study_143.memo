@@ -1,0 +1,1 @@
+BrowserRouterでの基盤構築。main.tsxでAppを包み、URLと表示を紐付ける手順を学びます。一重定義のルールを理解し、SPAの土台を習得します。

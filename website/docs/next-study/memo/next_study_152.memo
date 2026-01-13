@@ -1,0 +1,1 @@
+dangerouslySetInnerHTMLはXSSリスクが高い最終手段だ。使用時は必ずサニタイズを行い、可能な限りMarkdown等を利用して安全な表示を心がける。

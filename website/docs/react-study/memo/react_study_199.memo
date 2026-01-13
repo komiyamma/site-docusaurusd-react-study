@@ -1,0 +1,1 @@
+セキュリティの基本、XSS対策を解説。Reactのエスケープ、dangerouslySetInnerHTML、DOMPurifyを網羅。外部入力を安全に扱う堅牢なアプリ構築の実装フローを学びます。

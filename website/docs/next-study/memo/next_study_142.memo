@@ -1,0 +1,1 @@
+TODO追加機能をServer Actionsに移行する演習。fetchからの書き換え、ActionでのDB操作、revalidatePathによる表示更新といった一連の流れを習得する。

@@ -1,0 +1,1 @@
+Viteプロジェクトの標準的なフォルダ構成（index.htmlからApp.tsxへの流れ）や各ファイルの役割、tsconfig.jsonの主要設定、Vite固有の設定について解説する。

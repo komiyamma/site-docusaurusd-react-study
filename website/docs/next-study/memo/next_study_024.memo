@@ -1,0 +1,1 @@
+Next.jsのlayout.tsxを使い、ヘッダー等の共通外枠を作る方法を解説。root layoutでのhtmlタグ等の必須記述や、childrenによるページ表示の仕組みを実例で学ぶ。

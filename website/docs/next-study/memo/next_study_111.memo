@@ -1,0 +1,1 @@
+Route HandlerでのCookie・Headers操作を解説。取得やNextResponseでの返却、await対応、httpOnly設定等を学ぶ。状態保持やメタ情報制御の基本を実例で習得する。

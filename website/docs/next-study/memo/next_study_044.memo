@@ -1,0 +1,1 @@
+Next.jsでブラウザAPI（window等）を安全に扱う手法を解説。Server側のエラーを防ぎ、"use client"やuseEffect内の実行、コンポーネント分割での解決法を具体例で学ぶ。

@@ -1,0 +1,1 @@
+Next.jsのCatch-all（[...slug]）を解説。多階層URLを1つのページで受け、slugを配列で得る仕組みを学ぶ。Optional形式との違いやawaitでの取得法を具体例で学ぶ。

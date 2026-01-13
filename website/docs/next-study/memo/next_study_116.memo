@@ -1,0 +1,1 @@
+Route HandlerとServer Actionsの使い分け。内部操作はActions、外部公開やCORS対応が必要な際はAPIとする判断基準を学ぶ。管理コストを抑える適切な設計を実例で学ぶ。

@@ -1,0 +1,1 @@
+React.MouseEventとイベントオブジェクトの扱いを解説。MouseEvent<HTMLButtonElement>のように要素を型指定し、currentTarget等から安全に要素を操作する手法を学ぶ。
